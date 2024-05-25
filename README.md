@@ -7,7 +7,7 @@ This is a newsfeed application built using Python. It allows users to view, crea
 - [Installation](#installation)
 - [Usage](#usage)
 - [Features](#features)
-- [Contributing](#contributing)
+- [Credits](#contributing)
 - [License](#license)
 
 ## Installation
@@ -18,7 +18,7 @@ pip install -r requirements.txt
 
 ## Usage
 1. Run the development server:
-2. Access the application at `http://localhost:8000`.
+2. Access the application at `http://localhost:5000`.
 
 ## Features
 - User authentication and sessions
