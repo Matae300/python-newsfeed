@@ -1,6 +1,6 @@
 import os
 from flask import Flask
-from app.routes import home, dashboard
+from app.routes import home, dashboard, api
 from app.utils import filters
 from app.db import init_db
 from dotenv import load_dotenv
@@ -33,6 +33,7 @@ def create_app(test_config=None):
     # Register blueprints
     app.register_blueprint(home)
     app.register_blueprint(dashboard)
+    app.register_blueprint(api)
 
     # Initialize the database
     init_db(app)
